@@ -9,7 +9,7 @@
 各フォルダ階層の`CMakeLists.txt`を記述してcmake->makeしてライブラリをビルドする。
 Macの場合、出力は`*.so`となる。
 
-ソースのあるPassフォルダのCMakeListsには以下の変数にインストール済みのllvmに対応するパスをセットする。(Windowsの場合は不要？)
+~~ソースのあるPassフォルダ~~リポジトリルートのCMakeListsには以下の変数にインストール済みのllvmに対応するパスをセットする。(Windowsの場合は不要？)
 
 ```cmake
 set(LLVM_DIR /usr/local/Cellar/llvm/7.0.1/share/cmake/modules)
